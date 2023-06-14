@@ -1,0 +1,36 @@
+$linkedinBlue1: #0077B5;
+$linkedinBlue2: #135d85;
+$linkedinBlue3: #113e57;
+
+.profile-edit-inputs{
+    display:grid;
+    margin-top:40px;
+    gap:20px;
+
+    .edit-input{
+        width:300px;
+        height:40px;
+    }
+
+    .save-container{
+        display:center;
+        justify-content: center;
+    }
+    
+    .save-btn{
+        width:300px;
+        height:30px;
+        cursor:pointer;
+        background-color:$linkedinBlue2;
+        height:50px;
+        border-radius:30px;
+        outline:none;
+        border:none;
+        font-family:system-ui;
+        font-weight:600;
+        color:#ffffff;
+        font-size:18px;
+        margin-top:20px;
+        
+    }
+}
